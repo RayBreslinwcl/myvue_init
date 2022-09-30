@@ -1,8 +1,21 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+
     <router-view/>
+
+    <router-link to="/page1">Page1</router-link>
+    <router-link to="/page2">Page2</router-link>
+    
+    <div>
+      <router-link to="/user/xianyu">动态路由咸鱼</router-link>
+      <router-link to="/user/mengxiang">动态路由梦想</router-link>
+    </div>
   </div>
+
+  <!-- //添加两个router-link标签 -->
+
+
 </template>
 
 <script>
