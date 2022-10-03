@@ -10,6 +10,8 @@
     <div>
       <router-link to="/user/xianyu">动态路由咸鱼</router-link>
       <router-link to="/user/mengxiang">动态路由梦想</router-link>
+
+      <router-link to="/vcharts">vcharts</router-link>
     </div>
   </div>
 
